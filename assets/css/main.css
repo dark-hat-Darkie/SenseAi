@@ -621,6 +621,9 @@ a.navbar-brand {
     #hero-area .contents .header-button .btn {
       margin-right: 10px; }
 
+.intro-img {
+  margin-top: -50px; }
+
 .sloder-img {
   background: #34363a; }
 
