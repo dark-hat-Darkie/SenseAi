@@ -600,6 +600,9 @@ a.navbar-brand {
   -webkit-animation-name: fadeInUpMenu;
   animation-name: fadeInUpMenu; }
 
+.top-nav-collapse .navbar-brand img {
+  width: 25%; }
+
 /* ==========================================================================
 3. Hero Area
 ========================================================================== */
