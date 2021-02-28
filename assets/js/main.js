@@ -12,8 +12,10 @@
     $(window).on('scroll', function() {
         if ($(window).scrollTop() > 50) {
             $('.scrolling-navbar').addClass('top-nav-collapse');
+            document.getElementById("logo").src = "assets/img/logo.png";
         } else {
             $('.scrolling-navbar').removeClass('top-nav-collapse');
+            document.getElementById("logo").src = "assets/img/logo-light.png";
         }
     });
 
